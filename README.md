@@ -1,6 +1,6 @@
 # MusicMarket
 
-* This project includes;
+This project includes;
 
 * Repository Design Pattern
 * Unit of Work Design Pattern
