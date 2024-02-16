@@ -1,0 +1,224 @@
+2024-02-03 15:57:11.761 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 15:57:11.787 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/index.html  
+2024-02-03 15:57:11.825 +03:00 [INF] Hosting environment: Development
+2024-02-03 15:57:11.828 +03:00 [INF] Content root path: C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api
+2024-02-03 15:57:12.149 +03:00 [INF] Request finished in 367.8822ms 200 text/html;charset=utf-8
+2024-02-03 15:57:12.617 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_framework/aspnetcore-browser-refresh.js  
+2024-02-03 15:57:12.631 +03:00 [INF] Request finished in 14.3486ms 200 application/javascript; charset=utf-8
+2024-02-03 15:57:12.637 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_vs/browserLink  
+2024-02-03 15:57:12.744 +03:00 [INF] Request finished in 107.421ms 200 text/javascript; charset=UTF-8
+2024-02-03 15:57:12.782 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-bundle.js.map  
+2024-02-03 15:57:12.786 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-standalone-preset.js.map  
+2024-02-03 15:57:12.792 +03:00 [INF] Request finished in 9.9724ms 404 
+2024-02-03 15:57:12.792 +03:00 [INF] Request finished in 5.4528ms 404 
+2024-02-03 15:57:12.836 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger/v1/swagger.json  
+2024-02-03 15:57:12.927 +03:00 [INF] Request finished in 91.5779ms 200 application/json;charset=utf-8
+2024-02-03 15:57:39.735 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Artist  
+2024-02-03 15:57:39.746 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 15:57:39.807 +03:00 [INF] Route matched with {action = "GetAllArtists", controller = "Artist"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MusicMarket.Api.DTO.ArtistDTO]]] GetAllArtists() on controller MusicMarket.Api.Controllers.ArtistController (MusicMarket.Api).
+2024-02-03 15:57:40.292 +03:00 [ERR] Index action of the Artist Controller
+System.Exception: Some bad code was executed
+   at MusicMarket.Api.Controllers.ArtistController.GetAllArtists() in C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api\Controllers\ArtistController.cs:line 36
+2024-02-03 15:57:40.379 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-02-03 15:57:40.390 +03:00 [INF] Executed action MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api) in 572.7261ms
+2024-02-03 15:57:40.394 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 15:57:40.397 +03:00 [INF] Request finished in 662.553ms 400 text/plain; charset=utf-8
+2024-02-03 16:00:29.250 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 16:00:29.266 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/index.html  
+2024-02-03 16:00:29.301 +03:00 [INF] Hosting environment: Development
+2024-02-03 16:00:29.304 +03:00 [INF] Content root path: C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api
+2024-02-03 16:00:29.640 +03:00 [INF] Request finished in 377.8031ms 200 text/html;charset=utf-8
+2024-02-03 16:00:30.064 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_framework/aspnetcore-browser-refresh.js  
+2024-02-03 16:00:30.075 +03:00 [INF] Request finished in 11.4334ms 200 application/javascript; charset=utf-8
+2024-02-03 16:00:30.082 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_vs/browserLink  
+2024-02-03 16:00:30.106 +03:00 [INF] Request finished in 23.5463ms 200 text/javascript; charset=UTF-8
+2024-02-03 16:00:30.244 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-bundle.js.map  
+2024-02-03 16:00:30.250 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-standalone-preset.js.map  
+2024-02-03 16:00:30.255 +03:00 [INF] Request finished in 10.5937ms 404 
+2024-02-03 16:00:30.255 +03:00 [INF] Request finished in 4.9846ms 404 
+2024-02-03 16:00:30.291 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger/v1/swagger.json  
+2024-02-03 16:00:30.406 +03:00 [INF] Request finished in 115.1685ms 200 application/json;charset=utf-8
+2024-02-03 16:00:43.425 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Music  
+2024-02-03 16:00:43.437 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.MusicController.GetAllMusics (MusicMarket.Api)'
+2024-02-03 16:00:43.472 +03:00 [INF] Route matched with {action = "GetAllMusics", controller = "Music"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MusicMarket.Api.DTO.MusicDTO]]] GetAllMusics() on controller MusicMarket.Api.Controllers.MusicController (MusicMarket.Api).
+2024-02-03 16:00:44.050 +03:00 [INF] Entity Framework Core 3.1.7 initialized 'MusicMarketDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=MusicMarket.Data 
+2024-02-03 16:00:44.830 +03:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ArtistId], [m].[Name], [a].[Id], [a].[Name]
+FROM [Musics] AS [m]
+INNER JOIN [Artists] AS [a] ON [m].[ArtistId] = [a].[Id]
+2024-02-03 16:00:44.925 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MusicMarket.Api.DTO.MusicDTO, MusicMarket.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-03 16:00:44.936 +03:00 [INF] Executed action MusicMarket.Api.Controllers.MusicController.GetAllMusics (MusicMarket.Api) in 1456.3082ms
+2024-02-03 16:00:44.940 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.MusicController.GetAllMusics (MusicMarket.Api)'
+2024-02-03 16:00:44.944 +03:00 [INF] Request finished in 1519.9446ms 200 application/json; charset=utf-8
+2024-02-03 16:06:37.570 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 16:06:37.591 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/index.html  
+2024-02-03 16:06:37.616 +03:00 [INF] Hosting environment: Development
+2024-02-03 16:06:37.619 +03:00 [INF] Content root path: C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api
+2024-02-03 16:06:37.868 +03:00 [INF] Request finished in 282.0589ms 200 text/html;charset=utf-8
+2024-02-03 16:06:38.312 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_framework/aspnetcore-browser-refresh.js  
+2024-02-03 16:06:38.322 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_vs/browserLink  
+2024-02-03 16:06:38.324 +03:00 [INF] Request finished in 11.8921ms 200 application/javascript; charset=utf-8
+2024-02-03 16:06:38.357 +03:00 [INF] Request finished in 34.9365ms 200 text/javascript; charset=UTF-8
+2024-02-03 16:06:38.412 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-bundle.js.map  
+2024-02-03 16:06:38.419 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-standalone-preset.js.map  
+2024-02-03 16:06:38.423 +03:00 [INF] Request finished in 10.8252ms 404 
+2024-02-03 16:06:38.426 +03:00 [INF] Request finished in 6.4659ms 404 
+2024-02-03 16:06:38.457 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger/v1/swagger.json  
+2024-02-03 16:06:38.564 +03:00 [INF] Request finished in 106.9316ms 200 application/json;charset=utf-8
+2024-02-03 16:07:18.523 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Music  
+2024-02-03 16:07:18.536 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.MusicController.GetAllMusics (MusicMarket.Api)'
+2024-02-03 16:07:18.572 +03:00 [INF] Route matched with {action = "GetAllMusics", controller = "Music"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MusicMarket.Api.DTO.MusicDTO]]] GetAllMusics() on controller MusicMarket.Api.Controllers.MusicController (MusicMarket.Api).
+2024-02-03 16:07:19.363 +03:00 [INF] Entity Framework Core 3.1.7 initialized 'MusicMarketDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=MusicMarket.Data 
+2024-02-03 16:07:20.118 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ArtistId], [m].[Name], [a].[Id], [a].[Name]
+FROM [Musics] AS [m]
+INNER JOIN [Artists] AS [a] ON [m].[ArtistId] = [a].[Id]
+2024-02-03 16:07:20.215 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MusicMarket.Api.DTO.MusicDTO, MusicMarket.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-03 16:07:20.226 +03:00 [INF] Executed action MusicMarket.Api.Controllers.MusicController.GetAllMusics (MusicMarket.Api) in 1646.2283ms
+2024-02-03 16:07:20.231 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.MusicController.GetAllMusics (MusicMarket.Api)'
+2024-02-03 16:07:20.238 +03:00 [INF] Request finished in 1715.6194ms 200 application/json; charset=utf-8
+2024-02-03 16:20:24.958 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 16:20:24.982 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/index.html  
+2024-02-03 16:20:25.006 +03:00 [INF] Hosting environment: Development
+2024-02-03 16:20:25.008 +03:00 [INF] Content root path: C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api
+2024-02-03 16:20:25.284 +03:00 [INF] Request finished in 306.2257ms 200 text/html;charset=utf-8
+2024-02-03 16:20:25.713 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_framework/aspnetcore-browser-refresh.js  
+2024-02-03 16:20:25.718 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_vs/browserLink  
+2024-02-03 16:20:25.733 +03:00 [INF] Request finished in 21.9247ms 200 application/javascript; charset=utf-8
+2024-02-03 16:20:25.754 +03:00 [INF] Request finished in 38.2912ms 200 text/javascript; charset=UTF-8
+2024-02-03 16:20:25.815 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-bundle.js.map  
+2024-02-03 16:20:25.824 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-standalone-preset.js.map  
+2024-02-03 16:20:25.830 +03:00 [INF] Request finished in 6.3743ms 404 
+2024-02-03 16:20:25.830 +03:00 [INF] Request finished in 15.4233ms 404 
+2024-02-03 16:20:25.861 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger/v1/swagger.json  
+2024-02-03 16:20:25.973 +03:00 [INF] Request finished in 112.1581ms 200 application/json;charset=utf-8
+2024-02-03 16:20:37.800 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Music  
+2024-02-03 16:20:37.811 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.MusicController.GetAllMusics (MusicMarket.Api)'
+2024-02-03 16:20:37.842 +03:00 [INF] Route matched with {action = "GetAllMusics", controller = "Music"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MusicMarket.Api.DTO.MusicDTO]]] GetAllMusics() on controller MusicMarket.Api.Controllers.MusicController (MusicMarket.Api).
+2024-02-03 16:20:38.704 +03:00 [INF] Entity Framework Core 3.1.7 initialized 'MusicMarketDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=MusicMarket.Data 
+2024-02-03 16:20:39.446 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[ArtistId], [m].[Name], [a].[Id], [a].[Name]
+FROM [Musics] AS [m]
+INNER JOIN [Artists] AS [a] ON [m].[ArtistId] = [a].[Id]
+2024-02-03 16:20:39.543 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MusicMarket.Api.DTO.MusicDTO, MusicMarket.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-03 16:20:39.556 +03:00 [INF] Executed action MusicMarket.Api.Controllers.MusicController.GetAllMusics (MusicMarket.Api) in 1705.3764ms
+2024-02-03 16:20:39.559 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.MusicController.GetAllMusics (MusicMarket.Api)'
+2024-02-03 16:20:39.563 +03:00 [INF] Request finished in 1763.81ms 200 application/json; charset=utf-8
+2024-02-03 16:21:07.324 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Artist  
+2024-02-03 16:21:07.330 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 16:21:07.338 +03:00 [INF] Route matched with {action = "GetAllArtists", controller = "Artist"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MusicMarket.Api.DTO.ArtistDTO]]] GetAllArtists() on controller MusicMarket.Api.Controllers.ArtistController (MusicMarket.Api).
+2024-02-03 16:21:07.408 +03:00 [ERR] Index action of the Artist Controller
+System.Exception: Some bad code was executed
+   at MusicMarket.Api.Controllers.ArtistController.GetAllArtists() in C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api\Controllers\ArtistController.cs:line 36
+2024-02-03 16:21:07.449 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-02-03 16:21:07.453 +03:00 [INF] Executed action MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api) in 111.8465ms
+2024-02-03 16:21:07.455 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 16:21:07.458 +03:00 [INF] Request finished in 133.3492ms 400 text/plain; charset=utf-8
+2024-02-03 16:21:46.724 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Artist  
+2024-02-03 16:21:46.728 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 16:21:46.732 +03:00 [INF] Route matched with {action = "GetAllArtists", controller = "Artist"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MusicMarket.Api.DTO.ArtistDTO]]] GetAllArtists() on controller MusicMarket.Api.Controllers.ArtistController (MusicMarket.Api).
+2024-02-03 16:21:46.767 +03:00 [ERR] Index action of the Artist Controller
+System.Exception: Some bad code was executed
+   at MusicMarket.Api.Controllers.ArtistController.GetAllArtists() in C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api\Controllers\ArtistController.cs:line 36
+2024-02-03 16:21:46.773 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-02-03 16:21:46.776 +03:00 [INF] Executed action MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api) in 40.7741ms
+2024-02-03 16:21:46.778 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 16:21:46.780 +03:00 [INF] Request finished in 56.2374ms 400 text/plain; charset=utf-8
+2024-02-03 16:21:56.267 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Artist  
+2024-02-03 16:21:56.271 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 16:21:56.275 +03:00 [INF] Route matched with {action = "GetAllArtists", controller = "Artist"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MusicMarket.Api.DTO.ArtistDTO]]] GetAllArtists() on controller MusicMarket.Api.Controllers.ArtistController (MusicMarket.Api).
+2024-02-03 16:22:03.657 +03:00 [ERR] Index action of the Artist Controller
+System.Exception: Some bad code was executed
+   at MusicMarket.Api.Controllers.ArtistController.GetAllArtists() in C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api\Controllers\ArtistController.cs:line 36
+2024-02-03 16:22:05.459 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-02-03 16:22:05.465 +03:00 [INF] Executed action MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api) in 9185.6952ms
+2024-02-03 16:22:05.470 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 16:22:05.473 +03:00 [INF] Request finished in 9205.9764ms 400 text/plain; charset=utf-8
+2024-02-03 16:23:14.941 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 16:23:14.956 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/index.html  
+2024-02-03 16:23:14.980 +03:00 [INF] Hosting environment: Development
+2024-02-03 16:23:14.982 +03:00 [INF] Content root path: C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api
+2024-02-03 16:23:15.280 +03:00 [INF] Request finished in 325.8964ms 200 text/html;charset=utf-8
+2024-02-03 16:23:15.291 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_framework/aspnetcore-browser-refresh.js  
+2024-02-03 16:23:15.296 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_vs/browserLink  
+2024-02-03 16:23:15.307 +03:00 [INF] Request finished in 15.654ms 200 application/javascript; charset=utf-8
+2024-02-03 16:23:15.328 +03:00 [INF] Request finished in 32.3034ms 200 text/javascript; charset=UTF-8
+2024-02-03 16:23:15.384 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-bundle.js.map  
+2024-02-03 16:23:15.390 +03:00 [INF] Request finished in 5.7206ms 404 
+2024-02-03 16:23:26.406 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-standalone-preset.js.map  
+2024-02-03 16:23:26.411 +03:00 [INF] Request finished in 5.1887ms 404 
+2024-02-03 16:23:26.469 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger/v1/swagger.json  
+2024-02-03 16:23:26.581 +03:00 [INF] Request finished in 111.4286ms 200 application/json;charset=utf-8
+2024-02-03 16:24:04.347 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Artist/1  
+2024-02-03 16:24:04.357 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.ArtistController.GetArtistById (MusicMarket.Api)'
+2024-02-03 16:24:04.393 +03:00 [INF] Route matched with {action = "GetArtistById", controller = "Artist"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MusicMarket.Api.DTO.ArtistDTO]] GetArtistById(Int32) on controller MusicMarket.Api.Controllers.ArtistController (MusicMarket.Api).
+2024-02-03 16:24:04.580 +03:00 [INF] Executed action MusicMarket.Api.Controllers.ArtistController.GetArtistById (MusicMarket.Api) in 180.2832ms
+2024-02-03 16:24:04.585 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.ArtistController.GetArtistById (MusicMarket.Api)'
+2024-02-03 16:24:04.591 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at MusicMarket.Api.Controllers.ArtistController.GetArtistById(Int32 id) in C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api\Controllers\ArtistController.cs:line 61
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-02-03 16:24:04.656 +03:00 [ERR] The given key was not present in the dictionary.
+2024-02-03 16:24:04.665 +03:00 [INF] Request finished in 317.4831ms 400 application/json
+2024-02-03 16:24:22.139 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Artist/5  
+2024-02-03 16:24:22.146 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.ArtistController.GetArtistById (MusicMarket.Api)'
+2024-02-03 16:24:22.151 +03:00 [INF] Route matched with {action = "GetArtistById", controller = "Artist"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MusicMarket.Api.DTO.ArtistDTO]] GetArtistById(Int32) on controller MusicMarket.Api.Controllers.ArtistController (MusicMarket.Api).
+2024-02-03 16:24:22.187 +03:00 [INF] Executed action MusicMarket.Api.Controllers.ArtistController.GetArtistById (MusicMarket.Api) in 33.0486ms
+2024-02-03 16:24:22.190 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.ArtistController.GetArtistById (MusicMarket.Api)'
+2024-02-03 16:24:22.193 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at MusicMarket.Api.Controllers.ArtistController.GetArtistById(Int32 id) in C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api\Controllers\ArtistController.cs:line 61
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-02-03 16:24:22.196 +03:00 [ERR] The given key was not present in the dictionary.
+2024-02-03 16:24:22.203 +03:00 [INF] Request finished in 64.0918ms 400 application/json
+2024-02-03 23:17:41.325 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 23:17:41.346 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/index.html  
+2024-02-03 23:17:41.380 +03:00 [INF] Hosting environment: Development
+2024-02-03 23:17:41.383 +03:00 [INF] Content root path: C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api
+2024-02-03 23:17:41.744 +03:00 [INF] Request finished in 400.6293ms 200 text/html;charset=utf-8
+2024-02-03 23:17:42.257 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_framework/aspnetcore-browser-refresh.js  
+2024-02-03 23:17:42.257 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_vs/browserLink  
+2024-02-03 23:17:42.271 +03:00 [INF] Request finished in 13.676ms 200 application/javascript; charset=utf-8
+2024-02-03 23:17:42.290 +03:00 [INF] Request finished in 33.3273ms 200 text/javascript; charset=UTF-8
+2024-02-03 23:17:42.384 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-bundle.js.map  
+2024-02-03 23:17:42.393 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-standalone-preset.js.map  
+2024-02-03 23:17:42.399 +03:00 [INF] Request finished in 6.16ms 404 
+2024-02-03 23:17:42.399 +03:00 [INF] Request finished in 14.7924ms 404 
+2024-02-03 23:17:42.423 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger/v1/swagger.json  
+2024-02-03 23:17:42.566 +03:00 [INF] Request finished in 142.2693ms 200 application/json;charset=utf-8
+2024-02-03 23:20:23.104 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Artist  
+2024-02-03 23:20:23.119 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 23:20:23.164 +03:00 [INF] Route matched with {action = "GetAllArtists", controller = "Artist"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MusicMarket.Api.DTO.ArtistDTO]]] GetAllArtists() on controller MusicMarket.Api.Controllers.ArtistController (MusicMarket.Api).
+2024-02-03 23:20:23.818 +03:00 [ERR] Index action of the Artist Controller
+System.Exception: Some bad code was executed
+   at MusicMarket.Api.Controllers.ArtistController.GetAllArtists() in C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api\Controllers\ArtistController.cs:line 36
+2024-02-03 23:20:23.890 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-02-03 23:20:23.902 +03:00 [INF] Executed action MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api) in 727.427ms
+2024-02-03 23:20:23.906 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2024-02-03 23:20:23.909 +03:00 [INF] Request finished in 804.7602ms 400 text/plain; charset=utf-8

@@ -1,0 +1,35 @@
+2023-06-28 15:26:17.533 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-28 15:26:17.579 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/  
+2023-06-28 15:26:17.674 +03:00 [INF] Hosting environment: Development
+2023-06-28 15:26:17.678 +03:00 [INF] Content root path: C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK\MusicMarket\MusicMarket.Api
+2023-06-28 15:26:18.185 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/index.html  
+2023-06-28 15:26:18.205 +03:00 [INF] Request finished in 634.4165ms 301 
+2023-06-28 15:26:18.633 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger-ui.css  
+2023-06-28 15:26:18.672 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_framework/aspnetcore-browser-refresh.js  
+2023-06-28 15:26:18.693 +03:00 [INF] Request finished in 508.3067ms 200 text/html;charset=utf-8
+2023-06-28 15:26:18.636 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger-ui-bundle.js  
+2023-06-28 15:26:18.646 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger-ui-standalone-preset.js  
+2023-06-28 15:26:18.685 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_vs/browserLink  
+2023-06-28 15:26:18.762 +03:00 [INF] Request finished in 89.1381ms 200 application/javascript; charset=utf-8
+2023-06-28 15:26:18.817 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-28 15:26:18.817 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-06-28 15:26:18.825 +03:00 [INF] Request finished in 192.1472ms 200 text/css
+2023-06-28 15:26:18.817 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-06-28 15:26:18.837 +03:00 [INF] Request finished in 193.387ms 200 application/javascript
+2023-06-28 15:26:18.840 +03:00 [INF] Request finished in 204.0095ms 200 application/javascript
+2023-06-28 15:26:18.925 +03:00 [INF] Request finished in 239.8165ms 200 text/javascript; charset=UTF-8
+2023-06-28 15:26:19.697 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger/v1/swagger.json  
+2023-06-28 15:26:19.744 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/favicon-32x32.png  
+2023-06-28 15:26:19.752 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-28 15:26:19.757 +03:00 [INF] Request finished in 12.5913ms 200 image/png
+2023-06-28 15:26:20.002 +03:00 [INF] Request finished in 306.1927ms 200 application/json;charset=utf-8
+2023-06-28 15:26:53.888 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/api/Artist  
+2023-06-28 15:26:53.907 +03:00 [INF] Executing endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2023-06-28 15:26:53.999 +03:00 [INF] Route matched with {action = "GetAllArtists", controller = "Artist"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MusicMarket.Api.DTO.ArtistDTO]]] GetAllArtists() on controller MusicMarket.Api.Controllers.ArtistController (MusicMarket.Api).
+2023-06-28 15:27:08.377 +03:00 [ERR] Index action of the Artist Controller
+System.Exception: Some bad code was executed
+   at MusicMarket.Api.Controllers.ArtistController.GetAllArtists() in C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK\MusicMarket\MusicMarket.Api\Controllers\ArtistController.cs:line 36
+2023-06-28 15:27:10.950 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-06-28 15:27:10.966 +03:00 [INF] Executed action MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api) in 16952.182ms
+2023-06-28 15:27:10.973 +03:00 [INF] Executed endpoint 'MusicMarket.Api.Controllers.ArtistController.GetAllArtists (MusicMarket.Api)'
+2023-06-28 15:27:13.229 +03:00 [INF] Request finished in 19342.2308ms 400 text/plain; charset=utf-8

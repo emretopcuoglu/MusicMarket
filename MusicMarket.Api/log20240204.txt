@@ -1,0 +1,15 @@
+2024-02-04 00:17:04.667 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-04 00:17:04.697 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/index.html  
+2024-02-04 00:17:04.739 +03:00 [INF] Hosting environment: Development
+2024-02-04 00:17:04.741 +03:00 [INF] Content root path: C:\Users\EmreTopçuoğluCrmAkad\Desktop\Personal Development\Custom Development\Mini Projects\ELK - MusicMarket\MusicMarket\MusicMarket.Api
+2024-02-04 00:17:05.140 +03:00 [INF] Request finished in 449.9319ms 200 text/html;charset=utf-8
+2024-02-04 00:17:05.989 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_framework/aspnetcore-browser-refresh.js  
+2024-02-04 00:17:05.989 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/_vs/browserLink  
+2024-02-04 00:17:06.005 +03:00 [INF] Request finished in 16.3541ms 200 application/javascript; charset=utf-8
+2024-02-04 00:17:06.094 +03:00 [INF] Request finished in 105.6504ms 200 text/javascript; charset=UTF-8
+2024-02-04 00:17:06.143 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-bundle.js.map  
+2024-02-04 00:17:06.160 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44378/swagger-ui-standalone-preset.js.map  
+2024-02-04 00:17:06.182 +03:00 [INF] Request finished in 21.4276ms 404 
+2024-02-04 00:17:06.182 +03:00 [INF] Request finished in 38.7814ms 404 
+2024-02-04 00:17:06.260 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44378/swagger/v1/swagger.json  
+2024-02-04 00:17:06.536 +03:00 [INF] Request finished in 275.8293ms 200 application/json;charset=utf-8
