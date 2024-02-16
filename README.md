@@ -3,7 +3,7 @@
 This project includes;
 
 * Repository Design Pattern
-* Unit of Work Design Pattern
+* Unit of Work
 * Asynchronous Programming
 * Swagger
 * Entity Framework - Code First
